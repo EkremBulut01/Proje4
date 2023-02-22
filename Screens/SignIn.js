@@ -26,7 +26,7 @@ const SignIn = ({ navigation }) => {
           });
           console.log("Document written with ID: ", docRef.id);
         } catch (e) {
-          console.error("Error adding document: ", e);
+          console.error("Error to adding document: ", e);
         }
         console.log(re)
       }).catch((err) => {
