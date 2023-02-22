@@ -24,7 +24,7 @@ const SignIn = ({ navigation }) => {
             lastname: lastName,
             email: email
           });
-          console.log("Document written with ID: ", docRef.id);
+          console.log("Document written with my ID: ", docRef.id);
         } catch (e) {
           console.error("Error to adding document: ", e);
         }
